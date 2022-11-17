@@ -17,19 +17,18 @@
 
 .mobile-mockup-wrapper {
     width: 50%;
-    /* position: sticky; */
 }
 
 .mobile-mockup {
     position: sticky;
-    top: 150;
+    top: 150px;
     transform: translateX(30%);
     width: 350px;
     height: 600px;
+    box-shadow: var(--mobile-box-shadow);
     border-radius: 46px;
     padding: 16px 14px;
     max-height: 100vh;
-    box-shadow: var(--mobile-box-shadow);
 }
 
 .mobile-mockup-screen {
@@ -44,12 +43,6 @@
     object-fit: contain;
 }
 
-.screen-heading {
-    font-size: 105px;
-    font-weight: 700;
-    line-height: 105px;
-}
-
 .screen-text {
     opacity: 0;
     padding-bottom: 80px;
@@ -60,13 +53,19 @@
     transition: 0.75s;
 }
 
+.screen-heading {
+    font-size: 105px;
+    font-weight: 700;
+    line-height: 105px;
+}
+
 .screen-description {
     font-size: 20px;
     font-weight: 600;
     margin-top: 52px;
 }
 
-@media all and (max-width:1279px) {
+@media all and (max-width: 1279px) {
     .mobile-scroll {
         padding-bottom: 30px;
     }
@@ -74,12 +73,15 @@
     .mobile-mockup {
         width: 272px;
         height: 480px;
-        transform: translateX(10%);
     }
 
     .screen-heading {
         font-size: 70px;
         line-height: 70px;
+    }
+
+    .mobile-mockup {
+        transform: translateX(10%);
     }
 
     .screen-description {
@@ -89,12 +91,18 @@
 }
 
 @media all and (max-width: 767px) {
+    .mobile-mockup {
+        width: 272px;
+        height: 480px;
+    }
+
     .screen-heading {
         font-size: 50px;
         line-height: 50px;
+        margin-bottom: 30px;
     }
 
-    .mobile-mockup-wrapper {
+    .scroll-full-screen-wrapper {
         width: 100%;
     }
 }

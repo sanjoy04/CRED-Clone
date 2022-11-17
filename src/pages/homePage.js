@@ -10,7 +10,7 @@ import FeelSpecial from "../components/FeelSpecial";
 import HeroSection from "../components/HeroSection";
 import MobileScroll from "../components/MobileScroll";
 import ProductShowcase from "../components/ProductShowcase";
-import WindowPeak from "../components/WhindowPeak";
+import WindowPeak from "../components/WindowPeek";
 
 const Home = () => {
   return (

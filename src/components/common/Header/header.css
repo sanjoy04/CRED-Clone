@@ -29,8 +29,8 @@
     width: 100vh;
     text-align: left;
     padding: 32px;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     transition: transform 0.3s ease-in-out 0s;
     z-index: 1;
 }

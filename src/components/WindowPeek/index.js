@@ -1,5 +1,5 @@
 import React from 'react';
-import "./windowPeak.css";
+import "./windowPeek.css";
 
 const WindowPeak = () => {
     return (

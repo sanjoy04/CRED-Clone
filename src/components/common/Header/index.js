@@ -24,12 +24,12 @@ const Header = () => {
                     />
                     <div className="only-mobile mobile-menu-buttom-wrapper">
                         <button
-                            class={`hamburger hamburger--spin ${showMobMenu ? 'is-active' : ""}`}
+                            className={`hamburger hamburger--spin ${showMobMenu ? 'is-active' : ""}`}
                             type="button"
                             onClick={toggleMobileMenu}
                         >
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
+                            <span className="hamburger-box">
+                                <span className="hamburger-inner"></span>
                             </span>
                         </button>
                     </div>

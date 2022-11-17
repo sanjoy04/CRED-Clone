@@ -46,7 +46,7 @@
     }
 
     .claim-anchor {
-        margin: 0px;
+        margin-left: 5px;
     }
 }
 
@@ -73,6 +73,6 @@
 
     .hero-claim-lebel {
         height: 55px;
-        font: 13px;
+        font-size: 13px;
     }
 }

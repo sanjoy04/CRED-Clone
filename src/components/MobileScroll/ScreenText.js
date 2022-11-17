@@ -1,13 +1,13 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 
-const ScreenTest = ({ screen, setCurrentImg, i }) => {
-  const [showAnimation, setShowAnimation] = useState(false);
-
+const ScreenText = ({ screen, setCurrentImg, i }) => {
   const ref = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
 
-  const toggleAnimation = (e) => {
+  const setItemVisible = (e) => {
+    console.log(e[0].isIntersecting);
     if (e[0].isIntersecting) {
-      setShowAnimation(true);
+      setIsVisible(!isVisible);
       setCurrentImg(i);
     }
   };
@@ -19,8 +19,7 @@ const ScreenTest = ({ screen, setCurrentImg, i }) => {
   };
 
   useEffect(() => {
-    const observer = new IntersectionObserver(toggleAnimation, options);
-
+    const observer = new IntersectionObserver(setItemVisible, options);
     if (ref.current) {
       observer.observe(ref.current);
     }
@@ -30,18 +29,19 @@ const ScreenTest = ({ screen, setCurrentImg, i }) => {
         observer.unobserve(ref.current);
       }
     };
-  });
+  }, []);
 
   return (
-    <div
-      className={`screen-text ${showAnimation ? "text-visible" : ""}`}
-      ref={ref}
-    >
+    <div className={`screen-text ${isVisible ? "text-visible" : ""}`} ref={ref}>
       <div className="screen-heading">{screen.heading}</div>
       <div className="mobile-mockup-wrapper only-mobile">
-        <div className="mobile-mockup">
+        <div className="mobile-mockup ">
           <div className="mobile-mockup-screen flex absolute-center">
-            <img src={screen.mobile_img} className="mobile-screen-img" />
+            <img
+              src={screen.mobile_img}
+              className="mobile-screen-img slide-in-right "
+              key={screen.mobile_img}
+            />
           </div>
         </div>
       </div>
@@ -50,4 +50,4 @@ const ScreenTest = ({ screen, setCurrentImg, i }) => {
   );
 };
 
-export default ScreenTest;
+export default ScreenText;

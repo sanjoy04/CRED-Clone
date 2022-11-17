@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a7bd2ac-fec2-4027-9725-25b7b2045fa9" name="Changes" comment="">
+    <list default="true" id="2a7bd2ac-fec2-4027-9725-25b7b2045fa9" name="Changes" comment="Made stick the mobile in mobile scroll section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSection/heroSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection/heroSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MobileScroll/ScreenText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileScroll/ScreenText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MobileScroll/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileScroll/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MobileScroll/mobileScroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileScroll/mobileScroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WhindowPeak/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WindowPeek/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WhindowPeak/windowPeak.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WindowPeek/windowPeek.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +40,16 @@
       <option name="presentableId" value="Default" />
       <updated>1668599407189</updated>
       <workItem from="1668599412367" duration="295000" />
-      <workItem from="1668692276995" duration="1377000" />
+      <workItem from="1668692276995" duration="2309000" />
     </task>
+    <task id="LOCAL-00001" summary="Made stick the mobile in mobile scroll section">
+      <created>1668693904522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668693904522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +65,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made stick the mobile in mobile scroll section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made stick the mobile in mobile scroll section" />
   </component>
 </project>
